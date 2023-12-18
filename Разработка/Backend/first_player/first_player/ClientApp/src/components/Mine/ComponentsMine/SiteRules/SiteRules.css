@@ -1,0 +1,16 @@
+.SiteRules{
+    color: white;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 12pt;
+    text-indent: 50px;
+    padding-left: 15px;
+}
+.SiteRulesText{
+    line-height: 30px;
+}
+.SiteRulesTextP{
+    font-weight: 900;
+    font-size: 16pt;
+    padding: 30px;
+}

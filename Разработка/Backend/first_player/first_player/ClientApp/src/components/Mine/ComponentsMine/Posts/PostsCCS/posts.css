@@ -1,0 +1,175 @@
+.BoxPosts{
+    padding-bottom: 50px;
+}
+.FilterPosts{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 10px;
+    justify-content: start;
+    padding: 15px;
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    border: 0px;
+}
+.FilterPostsButton{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    gap: 10px;
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    border: 0px;
+}
+.FilterPostsTxt{
+
+}
+.FilterPostsImg{
+    
+}
+.BoxPost{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 20px;
+}
+/*Верхняя часть поста*/
+.BoxPostTop{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    gap: 20px;
+}
+.BoxPostTopBoxImg{
+    height: 40px;
+    width: 40px;
+}
+.BoxPostTopImg{
+    object-fit: cover;
+    width : 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.BoxPostTopTxt{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    gap: 20px;
+}
+.BoxPostTopTxtLink{
+    text-decoration: none;
+    color: white;
+}
+.BoxPostTopTxtNicneim{
+color: white;
+font-family: Arial;
+font-weight: 900;
+font-size: 14pt;
+}
+.BoxPostTopTxtDate{
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 10pt;
+}
+
+
+/*Средняя часть поста*/
+.BoxPostCentr{
+    
+}
+.BoxPostCentrTema{
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 14pt;
+    padding: 15px;
+    padding-top: 25px;
+}
+.BoxPostCentrText{
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: 900;
+    color: white;
+    text-indent: 50px;
+}
+.BoxPostCentrBoxImg{
+    
+}
+.BoxPostCentrImg{
+    object-fit: cover;
+    width : 100%;
+    height: 100%;
+    padding: 10px;
+}
+.BoxPostCentrButton{
+    width: 100%;
+    display: block;
+    text-align: left;
+    background-color: rgba(127, 127, 127, 1);
+    border: none;
+    font-family: Arial;
+    font-weight: 900;
+    color: black;
+}
+.BoxPostCentrTegs{
+    font-family: Arial;
+    font-weight: 900;
+    color: black;
+    padding: 10px;
+    font-size: 10pt;
+}
+/*Нижняя часть поста*/
+.BoxPostbootom{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.BoxPostbootomLeft{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
+    padding-left: 15px;
+}
+.BoxPostbootomLeftButton{
+    background-color: rgba(127, 127, 127, 1);
+    border: none;
+}
+.BoxPostbootomLeftText{
+    font-family: Arial;
+    font-weight: 700;
+}
+.BoxPostbootomLike{
+
+}
+.BoxPostbootomDisLike{
+
+}
+.BoxPostbootomCentr{
+    display: grid;
+    grid-template-columns: auto auto auto  auto;
+    justify-content: start;
+    padding-right: 10px;
+}
+.BoxPostbootomCentrText{
+    font-family: Arial;
+    font-weight: 700;
+    padding-right: 10px;
+}
+.BoxPostbootomCentrButton{
+    background-color: rgba(127, 127, 127, 1);
+    border: none;
+}
+.BoxPostbootomRight{
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: end;
+    padding-right: 30px;
+
+}
+.BoxPostbootomRightButton{
+    background-color: rgba(127, 127, 127, 1);
+    border: none;
+}

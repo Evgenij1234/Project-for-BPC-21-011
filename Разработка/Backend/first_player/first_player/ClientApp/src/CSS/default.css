@@ -1,0 +1,221 @@
+/*Вся прлатформа*/
+.html{
+    background-color: #5E5E5E;
+}
+.body {
+    display: grid;
+    grid-template-rows: 60px minmax(800px, auto) minmax(250px, auto);
+    background-color: #5E5E5E;
+}
+/*Блок для размещения сайтбара и майн горизонтально*/
+.TBox{
+    display: grid;
+    grid-template-columns: auto 300px;
+}
+.BoxTBox{
+    display: grid;
+    grid-template-columns: minmax(600px, 1000px);
+    justify-content: center;
+    
+}
+/*Конец всей платформы*/
+/*Шапка*/
+.Header {
+    height: 60px;
+    background-color: black;
+    display: grid;
+}
+.header-box-content {
+    background-color: black;
+    display: grid;
+    height: 60px;
+    justify-self:center;
+    grid-template-columns: minmax(60px, 170px) minmax(150px, 350px) minmax(150px, 450px);
+}
+.content-box2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    align-items:end;
+    font-weight: bold;
+    gap: 15px;
+}
+.content-box3{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: end;
+    align-items:center;
+}
+.content-box-logo {
+    margin-left: 15px;
+    display: grid;
+    align-items:center;
+    padding-top: 5px;
+}
+
+
+
+.content-box-posts-button {
+    border: none; 
+    outline: none;
+    background-color: black;
+}
+.content-box-discussions-button{
+    border: none; 
+    outline: none;
+    background-color: black;
+}
+
+.content-box-posts {
+    border-bottom: 3px solid #fff;
+}
+
+.content-box-posts:hover{
+    color: #5E5E5E;
+}
+.content-box-discussions {
+    border-bottom: 3px solid #fff;
+}
+.content-box-discussions:hover{
+    color: #5E5E5E;
+}
+
+
+
+
+.content-box-search {
+   padding-top: 5px;
+}
+.content-box-search-andrectangle-button {
+    border: none; 
+    outline: none;
+    background-color: black;
+    color: white;
+}
+.content-box-rectangle {
+    padding-top: 5px;
+}
+.HeaderLink{
+    color: #fff;
+    text-decoration: none;
+}
+/*Конец шапки*/
+/*Сайдбар*/
+.Aside{
+    background-color: #5E5E5E;
+}
+.BoxAside{
+    background-color: rgba(127, 127, 127, 1);
+    margin: 15px;
+    border-radius: 15px;
+    padding-bottom: 40px;
+}
+.TopTopics{
+padding: 15px;
+font-family: Arial;
+font-weight:900;
+font-size: 15pt;
+color: #000000;
+}
+
+.Themes{
+    margin: 20px;
+}
+
+.Theme{
+    
+}
+.Theme-txt{
+    color: #fff;
+}
+.Theme-txt-a{
+    
+}
+.ThemeBoxBottom{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.ThemeBoxBottomLeft{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    padding-top: 15px;
+}
+.ThemeBoxBottomRight{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    padding-top: 15px;
+}
+
+.ThemeBoxBottomTxt{
+    padding-left: 5px;
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 12pt;
+}
+.Theme-txt-a{
+    font-family: Arial;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 10pt;
+    font-style:unset;
+}
+.ThemesHr{
+    border: 1px solid rgba(94, 94, 94, 1);
+}
+
+.CreateTopic{
+    background-color: rgba(127, 127, 127, 1);
+    margin: 15px;
+    border-radius: 15px;
+    padding-bottom: 40px;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+.CreateTopicButton{
+    font-family: Arial;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 12pt;
+    font-style:unset;
+    text-align: center;
+    margin-bottom: -25px;
+    margin-top: 10px;
+    background-color:rgba(127, 127, 127, 1);
+    border: none;
+}
+/*Конец сайтбара*/
+
+
+
+/*mine*/
+.main{
+    background-color: #5E5E5E;
+}
+/*конец mine*/
+
+
+
+
+/*Футер*/
+.footer {
+    background-color: black; 
+    justify-content: center; 
+    display:grid;
+    grid-template-columns: minmax(250px,1000px);
+    padding: 25px;
+  }
+  .FooterBox{
+      background-color: rgb(0, 0, 0);
+      display: grid;
+  }
+  .FooterBoxA{
+      color: #fff;
+      text-decoration: none;
+  }
+  /*Конец футера*/

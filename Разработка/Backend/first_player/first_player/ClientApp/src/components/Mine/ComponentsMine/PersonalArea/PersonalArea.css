@@ -1,0 +1,142 @@
+.PersonalAreaBox{
+    
+}
+.PersonalAccountuser{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 10px;
+    justify-content: start;
+    padding: 15px;
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    border: 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    gap: 30px;
+}
+.PersonalAccountuserimgbox{
+    height: 80px;
+    width: 80px;
+    color: black;
+    font-size: 17pt;
+    text-align: center;
+}
+.PersonalAccountuserimg{
+    object-fit: cover;
+    width : 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.PersonalAccountusernic{
+    font-size: 17pt;
+}
+.PersonalAccountMenuBox{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    border: 0px;
+padding-top: 50px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+gap: 10px;
+}
+.PersonalAccountMenuBoxLink{
+    background-color: rgba(93, 93, 93, 1);
+    border-radius: 10px;
+    text-decoration: none;
+    display: grid;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.StatisticsPerson{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 10px;
+    justify-content: start;
+    padding: 15px;
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    border: 0px;
+}
+.StatisticsPersontg{
+    margin-top:20px ;
+}
+.SavedPoststop{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    border: 0px;
+}
+.EditPersonalDataBox{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    padding: 50px;
+}
+.EditPersonalDataBoxform{
+    display: grid;
+    gap: 10px;
+}
+.ditPersonalDataBoxformimg{
+    display: grid;
+    justify-content: left;
+}
+.ditPersonalDataBoxformimginput{
+    display: none;
+}
+.EditPersonalDataBoxlabel{
+text-align: start;
+color: white;
+font-family: Arial;
+font-weight: 900;
+border: 0px;
+}
+.EditPersonalDataBoxinput{
+    background-color: rgba(93, 93, 93, 1);
+    color: white;
+}
+.EditPersonalDataBoxinputend{
+    width: 200px;
+    margin-top:  10px;
+    background-color: rgba(93, 93, 93, 1);
+    text-decoration: none;
+    border-radius: 10px;
+}
+/*Изменение цвета полей ввода*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:   black;
+ }
+ :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    black;
+ }
+ ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    black;
+ }
+ :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    black;
+ }
+ .PersonalAccountusernicexit{
+    border-radius: 10px;
+    background-color:  rgba(93, 93, 93, 1);
+    border: none;
+    color: white;
+ }

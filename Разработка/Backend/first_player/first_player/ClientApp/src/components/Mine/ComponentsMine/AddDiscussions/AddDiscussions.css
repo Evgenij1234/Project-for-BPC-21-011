@@ -1,0 +1,36 @@
+.AddDiscussionsBox{
+    padding-bottom: 50px;
+}
+.AddDiscussions{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 0px;
+}
+.AddDiscussionsform{
+    display: grid;
+    gap: 25px;
+}
+.AddDiscussionsformtem{
+    background-color: rgba(93, 93, 93, 1);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.AddDiscussionsformtext{
+    background-color: rgba(93, 93, 93, 1);
+    border-radius: 5px;
+}
+.AddDiscussionsformteg{
+    background-color: rgba(93, 93, 93, 1);
+    border-radius: 5px;
+    border: none;
+}
+.AddDiscussionsformsumbit{
+    background-color: rgba(93, 93, 93, 1);
+    border-radius: 5px;
+    width: 150px;
+    border: none;
+    color: white;
+}

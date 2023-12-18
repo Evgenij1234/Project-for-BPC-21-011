@@ -1,0 +1,57 @@
+.AddPostsBox{
+    padding-bottom: 50px;
+}
+.AddPosts{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 0px;
+}
+.AddPostsform{
+display: grid;
+gap: 25px;
+}
+.AddPostsformtem{
+background-color: rgba(93, 93, 93, 1);
+border-radius: 5px;
+border: none;
+color: white;
+}
+.AddPostsformtext{
+    background-color: rgba(93, 93, 93, 1);
+    border-radius: 5px;
+}
+.AddPostsformteg{
+    background-color: rgba(93, 93, 93, 1);
+    border-radius: 5px;
+    border: none;
+}
+.AddPostsformimg{
+
+}
+.AddPostsformimg{
+
+}
+.AddPostsformimgin{
+    display: none;
+}
+.AddPostsformsumbit{
+    background-color: rgba(93, 93, 93, 1);
+    border-radius: 5px;
+    width: 150px;
+    border: none;
+    color: white;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white;
+ }
+ :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    white;
+ }
+ ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    white;
+ }
+ :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    white;
+ }

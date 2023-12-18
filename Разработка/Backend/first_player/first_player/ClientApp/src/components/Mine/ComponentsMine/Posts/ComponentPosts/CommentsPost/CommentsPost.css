@@ -1,0 +1,69 @@
+.CommentsPosts{
+
+}
+.Formcommentadd{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 10px;
+    justify-content: start;
+    padding: 15px;
+    color: white;
+}
+.Formcommentaddform{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+}
+.Formcommentaddinput{
+background-color: rgba(102, 102, 102, 0.7);
+border: 1px solid;
+}
+.Formcommentaddinputsubmit{
+    height: 35px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.CommentsPostsCommentBox{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 10px;
+    justify-content: start;
+    padding: 15px;
+    color: white;
+}
+.CommentsPost{
+    
+}
+.CommentsPostboxtop{
+    display: grid;
+    grid-template-columns: 40px 200px auto 100px;
+    gap: 25px;
+}
+.CommentsPostboxtopboximg{
+    height: 40px;
+    width: 40px;
+}
+.CommentsPostboxtopimg{
+    object-fit: cover;
+    width : 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.CommentsPostboxtopnic{
+text-align: start;
+}
+.CommentsPostboxtopdat{
+text-align: end;
+}
+.CommentsPostboxbatom{
+   margin-top: 25px;
+}
+.hr{
+    margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #333;
+}

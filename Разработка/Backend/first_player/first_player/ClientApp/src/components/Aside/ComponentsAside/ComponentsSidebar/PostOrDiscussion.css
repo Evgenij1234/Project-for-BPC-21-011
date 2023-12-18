@@ -1,0 +1,26 @@
+.PostOrDiscussion{
+    background-color: rgba(127, 127, 127, 1);
+    margin: 15px;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.PostOrDiscussionButton{
+    margin-top: 25px;
+    background-color: #5E5E5E;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 11pt;
+    font-style:unset;
+}
+.PostOrDiscussionButtonLink{
+    color: #000;
+    text-decoration: none;
+}

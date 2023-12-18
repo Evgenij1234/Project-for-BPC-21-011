@@ -1,0 +1,181 @@
+.BoxDiscussions{
+    padding-bottom: 50px;
+    
+}
+.FilterDiscussions{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 10px;
+    justify-content: start;
+    padding: 15px;
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    border: 0px;
+}
+.FilterDiscussionsButton{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    gap: 10px;
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    border: 0px;
+}
+.FilterDiscussionsTxt{
+
+}
+.FilterDiscussionsImg{
+
+}
+.BoxDiscussionCentrtexte{
+    color: white;
+    font-weight: 700;
+    font-size: 12pt;
+}
+.CommentsDscussion{
+
+}
+.BoxDiscussion{
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 20px;
+}
+/*Верхняя часть поста*/
+.BoxDiscussionTop{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    gap: 20px;
+}
+.BoxDiscussionTopBoxImg{
+    height: 40px;
+    width: 40px;
+}
+.BoxDiscussionTopImg{
+    object-fit: cover;
+    width : 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.BoxDiscussionTopTxt{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    gap: 20px;
+}
+.BoxDiscussionTopTxtLink{
+    text-decoration: none;
+    color: white;
+}
+.BoxDiscussionTopTxtNicneim{
+color: white;
+font-family: Arial;
+font-weight: 900;
+font-size: 14pt;
+}
+.BoxDiscussionTopTxtDate{
+    color: white;
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+
+/*Средняя часть поста*/
+.BoxDiscussionCentr{
+    
+}
+.BoxDiscussionCentrTema{
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 12pt;
+    padding: 15px;
+    padding-top: 25px;
+}
+.BoxDiscussionCentrText{
+    font-family: Arial;
+    font-weight: 900;
+    color: white;
+    text-indent: 50px;
+}
+.BoxDiscussionCentrBoxImg{
+    
+}
+.BoxDiscussionCentrImg{
+    object-fit: cover;
+    width : 100%;
+    height: 100%;
+    padding: 10px;
+}
+.BoxDiscussionCentrButton{
+    width: 100%;
+    display: block;
+    text-align: left;
+    background-color: rgba(127, 127, 127, 1);
+    border: none;
+    font-family: Arial;
+    font-weight: 600;
+    color: black;
+}
+.BoxDiscussionCentrTegs{
+    font-family: Arial;
+    font-weight: 900;
+    color: black;
+    padding: 10px;
+    font-size: 10pt;
+}
+/*Нижняя часть поста*/
+.BoxDiscussionbootom{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.BoxDiscussionbootomLeft{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
+    padding-left: 15px;
+}
+.BoxDiscussionbootomLeftButton{
+    background-color: rgba(127, 127, 127, 1);
+    border: none;
+}
+.BoxDiscussionbootomLeftText{
+    font-family: Arial;
+    font-weight: 700;
+}
+.BoxDiscussionbootomLike{
+
+}
+.BoxDiscussionbootomDisLike{
+
+}
+.BoxDiscussionbootomCentr{
+    display: grid;
+    grid-template-columns: auto auto auto  auto;
+    justify-content: start;
+}
+.BoxDiscussionbootomCentrText{
+    font-family: Arial;
+    font-weight: 700;
+    padding-right: 10px;
+}
+.BoxDiscussionbootomCentrButton{
+    background-color: rgba(127, 127, 127, 1);
+    border: none;
+}
+.BoxDiscussionbootomRight{
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: end;
+    padding-right: 30px;
+
+}
+.BoxDiscussionbootomRightButton{
+    background-color: rgba(127, 127, 127, 1);
+    border: none;
+}

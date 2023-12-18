@@ -1,0 +1,65 @@
+.RegistrationOrLoginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    
+    background-color: #9b9b9b;
+    border-radius: 15px;
+}
+.box{
+    display: grid;
+    grid-template-columns: 120px 120px;
+    margin: 30px;
+    justify-content: center;
+    gap: 10px;
+}
+.RegistrationOrLoginBoxReg {
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+}
+
+.RegistrationOrLoginBoxEntrance{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+}
+
+.Registration{
+    background-color: #9b9b9b;
+    border-radius: 15px;
+}
+.Login{
+    background-color: #9b9b9b;
+    border-radius: 15px;
+}
+
+body {
+    background-color: #5E5E5E;
+}
+.Registrationform{
+    display: grid;
+   grid-template-rows: auto auto auto auto;
+   gap: 15px;
+   padding: 10px;
+}
+.Registrationinput{
+background-color: #494949;
+border-radius: 10px;
+border: none;
+height: 35px;
+}
+.Registrationinputsubmit{
+    width: 100px;
+    background-color: #494949;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+}
