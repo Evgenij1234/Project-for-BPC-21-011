@@ -24,6 +24,7 @@ class Admin extends React.Component {
             .then((response) => {
                 if (response.status === 200) {
                     this.setState({ error: "Пользователь удален", nickname: '' });
+                    window.location.href = "/Admin";
                 }
             })
             .catch((error) => {
@@ -59,6 +60,8 @@ class Admin extends React.Component {
         this.fetchStatistics();
     }
     render() {
+        localStorage.clear();
+        console.log(localStorage);
         return (
             <div className='Admin'>
                 <div>Удалить пользователя</div>
